@@ -1,0 +1,165 @@
+[
+    {
+      "id": 1,
+      "pathId": "mern1234",
+      "thumb": "../courses/image1.webp",
+      "title": "MERN স্ট্যাক ওয়েব ডেভেলপমেন্ট",
+      "numberOfClasses": 100,
+      "classDuration": 1025,
+      "price": "FREE"
+    },
+    {
+      "id": 2,
+      "pathId": "frontend1",
+      "thumb": "../courses/image2.webp",
+      "title": "ফ্রন্টএন্ড ওয়েব ডেভেলপমেন্ট: আধুনিক ওয়েবসাইট তৈরি",
+      "numberOfClasses": 80,
+      "classDuration": 850,
+      "price": "FREE"
+    },
+    {
+      "id": 3,
+      "pathId": "nodejs12",
+      "thumb": "../courses/image3.webp",
+      "title": "নোড.জেএস ক্র্যাশ কোর্স: ব্যাকএন্ড ওয়েব ডেভেলপমেন্ট",
+      "numberOfClasses": 90,
+      "classDuration": 950,
+      "price": "FREE"
+    },
+    {
+      "id": 4,
+      "pathId": "nextjs45",
+      "thumb": "../courses/image4.webp",
+      "title": "Next.js ক্র্যাশ কোর্স: আধুনিক ওয়েব অ্যাপ্লিকেশন",
+      "numberOfClasses": 75,
+      "classDuration": 800,
+      "price": "FREE"
+    },
+    {
+      "id": 5,
+      "pathId": "shopify01",
+      "thumb": "../courses/image5.webp",
+      "title": "Shopify মাস্টারি কোর্স",
+      "numberOfClasses": 60,
+      "classDuration": 700,
+      "price": "FREE"
+    },
+    {
+      "id": 6,
+      "pathId": "wordpress",
+      "thumb": "../courses/image6.webp",
+      "title": "ওয়ার্ডপ্রেস থিম কাস্টমাইজেশন",
+      "numberOfClasses": 50,
+      "classDuration": 600,
+      "price": "FREE"
+    },
+    {
+      "id": 7,
+      "pathId": "fiverr12",
+      "thumb": "../courses/image7.webp",
+      "title": "Fiverr কোর্স ফর ফ্রি",
+      "numberOfClasses": 40,
+      "classDuration": 500,
+      "price": "FREE"
+    },
+    {
+      "id": 8,
+      "pathId": "freelance",
+      "thumb": "../courses/image8.webp",
+      "title": "সফলতার গাইড: ফ্রিল্যান্সিং মার্কেটপ্লেস ক্যারিয়ার",
+      "numberOfClasses": 70,
+      "classDuration": 750,
+      "price": "2000৳"
+    },
+    {
+      "id": 9,
+      "pathId": "backend1",
+      "thumb": "../courses/image9.webp",
+      "title": "ব্যাকএন্ড ডেভেলপমেন্ট কোর্স: অ্যাডভান্সড নোড.জেএস",
+      "numberOfClasses": 85,
+      "classDuration": 900,
+      "price": "5000৳"
+    },
+    {
+      "id": 10,
+      "pathId": "fullstack",
+      "thumb": "../courses/image10.webp",
+      "title": "ফুলস্ট্যাক ওয়েব ডেভেলপমেন্ট: আধুনিক ওয়েব অ্যাপ্লিকেশন",
+      "numberOfClasses": 120,
+      "classDuration": 1100,
+      "price": "FREE"
+    },
+    {
+      "id": 11,
+      "pathId": "webdesign",
+      "thumb": "../courses/image11.webp",
+      "title": "প্রোফেশনাল ওয়েব ডিজাইন: আধুনিক ও রেস্পন্সিভ ওয়েবসাইট",
+      "numberOfClasses": 95,
+      "classDuration": 1000,
+      "price": "FREE"
+    },
+    {
+      "id": 12,
+      "pathId": "graphic99",
+      "thumb": "../courses/image12.webp",
+      "title": "গ্রাফিক ডিজাইন মাস্টারি কোর্স",
+      "numberOfClasses": 50,
+      "classDuration": 600,
+      "price": "9900৳"
+    },
+    {
+      "id": 13,
+      "pathId": "digimark1",
+      "thumb": "../courses/image13.webp",
+      "title": "ডিজিটাল মার্কেটিং",
+      "numberOfClasses": 130,
+      "classDuration": 1400,
+      "price": "14000৳"
+    },
+    {
+      "id": 14,
+      "pathId": "socialm2",
+      "thumb": "../courses/image14.webp",
+      "title": "সোশ্যাল মিডিয়া মার্কেটিং",
+      "numberOfClasses": 90,
+      "classDuration": 1000,
+      "price": "7000৳"
+    },
+    {
+      "id": 15,
+      "pathId": "prodesign",
+      "thumb": "../courses/image15.webp",
+      "title": "পেশাদার ডিজাইন কোর্স",
+      "numberOfClasses": 120,
+      "classDuration": 1300,
+      "price": "13500৳"
+    },
+    {
+      "id": 16,
+      "pathId": "branddes",
+      "thumb": "../courses/image16.webp",
+      "title": "ব্র্যান্ড ডিজাইনিং",
+      "numberOfClasses": 110,
+      "classDuration": 1200,
+      "price": "11500৳"
+    },
+    {
+      "id": 17,
+      "pathId": "autocad01",
+      "thumb": "../courses/image17.webp",
+      "title": "AutoCAD",
+      "numberOfClasses": 150,
+      "classDuration": 1500,
+      "price": "19500৳"
+    },
+    {
+      "id": 18,
+      "pathId": "shopbank",
+      "thumb": "../courses/image18.webp",
+      "title": "শপিং ব্যাংকিং",
+      "numberOfClasses": 125,
+      "classDuration": 1400,
+      "price": "16500৳"
+    }
+  ]
+  
