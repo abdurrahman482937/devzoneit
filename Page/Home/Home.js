@@ -1,4 +1,4 @@
-import HomeOne from "./part1/Homeone";
+import HomeOne from "./part1/HomeOne";
 
 export default function Home() {
   return (

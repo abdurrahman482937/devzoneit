@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar></Navbar>
-        <div className="px-[13%]">{children}</div>
+        <div className="overflow-x-hidden">{children}</div>
         <Footer></Footer>
       </body>
     </html>

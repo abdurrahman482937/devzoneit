@@ -253,3 +253,137 @@
 .button:active:after {
   background: teal;
 }
+
+
+/* heroButton */ 
+.heroButton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  padding: 1em 2em;
+  border: mediumspringgreen solid 0.15em;
+  border-radius: 0.25em;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 300ms, color 300ms;
+  user-select: none;
+}
+
+.heroButton p {
+  z-index: 1;
+}
+
+.heroButton:hover {
+  color: #000000;
+}
+
+.heroButton:active {
+  border-color: teal;
+}
+
+.heroButton::after, .heroButton::before {
+  content: "";
+  position: absolute;
+  width: 25em;
+  aspect-ratio: 1;
+  background: mediumspringgreen;
+  opacity: 50%;
+  border-radius: 50%;
+  transition: transform 500ms, background 300ms;
+}
+
+.heroButton::before {
+  transform: translateX(17em);
+}
+
+.heroButton::after {
+  transform: translateX(-17em);
+}
+
+.heroButton:hover:before {
+  left: 0;
+  transform: translateX(-1em);
+}
+
+.heroButton:hover:after {
+  right: 0;
+  transform: translateX(1em);
+}
+
+.heroButton:active:before,
+.heroButton:active:after {
+  background: teal;
+}
+
+
+/* heroButtonR */ 
+.heroButtonR {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+  padding: 1em 2em;
+  border: mediumspringgreen solid 0.15em;
+  border-radius: 0.25em;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 300ms, color 300ms;
+  user-select: none;
+}
+
+.heroButtonR p {
+  z-index: 1;
+}
+
+.heroButtonR:hover {
+  color: #ffffff;
+}
+
+.heroButtonR:active {
+  border-color: teal;
+}
+
+.heroButtonR::after, .heroButtonR::before {
+  content: "";
+  position: absolute;
+  width: 25em;
+  aspect-ratio: 1;
+  background: mediumspringgreen;
+  opacity: 50%;
+  border-radius: 50%;
+  transition: transform 500ms, background 300ms;
+}
+
+.heroButtonR::before {
+  transform: translateX(1em);
+}
+
+.heroButtonR::after {
+  transform: translateX(-1em);
+}
+
+.heroButtonR:hover:before {
+  left: 0;
+  transform: translateX(18em);
+}
+
+.heroButtonR:hover:after {
+  right: 0;
+  transform: translateX(-18em);
+}
+
+.heroButtonR:active:before,
+.heroButtonR:active:after {
+  background: teal;
+}
