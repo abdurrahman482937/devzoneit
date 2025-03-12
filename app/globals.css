@@ -134,7 +134,7 @@
   padding: 0.4em 1.7em;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
-  color: mediumspringgreen;
+  color: #f2f2f2;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -148,7 +148,7 @@
 }
 
 .navButton:hover {
-  color: #f2f2f2;
+  color: #000000;
 }
 
 .navButton:active {
@@ -199,7 +199,7 @@
   padding: 0.6em 2em;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
-  color: mediumspringgreen;
+  color: #f2f2f2;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -213,7 +213,7 @@
 }
 
 .button:hover {
-  color: #f2f2f2;
+  color: #000000;
 }
 
 .button:active {
