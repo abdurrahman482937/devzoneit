@@ -3,6 +3,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 
 export default function options() {
   return (
-    <div>option</div>
+    <div>options</div>
   )
 }
