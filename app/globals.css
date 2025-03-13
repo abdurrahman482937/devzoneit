@@ -123,15 +123,14 @@
   }
 }
 
-
-
-/* navButton */ 
+/* navButton */
 .navButton {
   all: unset;
   display: flex;
   align-items: center;
   position: relative;
   padding: 0.4em 1.7em;
+  background-color: #000000;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #f2f2f2;
@@ -155,25 +154,26 @@
   border-color: teal;
 }
 
-.navButton::after, .navButton::before {
+.navButton::after,
+.navButton::before {
   content: "";
   position: absolute;
-  width: 9em;
+  width: 10em;
   aspect-ratio: 1;
   background: mediumspringgreen;
-  opacity: 50%;
+  opacity: 80%;
   border-radius: 50%;
   transition: transform 500ms, background 300ms;
 }
 
 .navButton::before {
   left: 0;
-  transform: translateX(-8em);
+  transform: translateX(-10em);
 }
 
 .navButton::after {
   right: 0;
-  transform: translateX(8em);
+  transform: translateX(10em);
 }
 
 .navButton:hover:before {
@@ -189,14 +189,14 @@
   background: teal;
 }
 
-
-/* Button */ 
+/* Button */
 .button {
   all: unset;
   display: flex;
   align-items: center;
   position: relative;
   padding: 0.6em 2em;
+  background-color: #000000;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #f2f2f2;
@@ -220,25 +220,26 @@
   border-color: teal;
 }
 
-.button::after, .button::before {
+.button::after,
+.button::before {
   content: "";
   position: absolute;
-  width: 9em;
+  width: 12em;
   aspect-ratio: 1;
   background: mediumspringgreen;
-  opacity: 50%;
+  opacity: 80%;
   border-radius: 50%;
   transition: transform 500ms, background 300ms;
 }
 
 .button::before {
   left: 0;
-  transform: translateX(-8em);
+  transform: translateX(-12em);
 }
 
 .button::after {
   right: 0;
-  transform: translateX(8em);
+  transform: translateX(12em);
 }
 
 .button:hover:before {
@@ -254,8 +255,7 @@
   background: teal;
 }
 
-
-/* heroButton */ 
+/* heroButton */
 .heroButton {
   all: unset;
   display: flex;
@@ -263,7 +263,8 @@
   justify-content: center;
   position: relative;
   width: 50%;
-  padding: 1em 2em;
+  padding: 0.9em 2em;
+  background-color: #000000;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #ffffff;
@@ -271,7 +272,7 @@
   font-weight: 600;
   cursor: pointer;
   overflow: hidden;
-  transition: border 300ms, color 300ms;
+  transition: border 500ms, color 500ms;
   user-select: none;
 }
 
@@ -287,23 +288,24 @@
   border-color: teal;
 }
 
-.heroButton::after, .heroButton::before {
+.heroButton::after,
+.heroButton::before {
   content: "";
   position: absolute;
   width: 25em;
   aspect-ratio: 1;
   background: mediumspringgreen;
-  opacity: 50%;
+  opacity: 80%;
   border-radius: 50%;
   transition: transform 500ms, background 300ms;
 }
 
 .heroButton::before {
-  transform: translateX(17em);
+  transform: translateX(-25em);
 }
 
 .heroButton::after {
-  transform: translateX(-17em);
+  transform: translateX(25em);
 }
 
 .heroButton:hover:before {
@@ -322,7 +324,7 @@
 }
 
 
-/* heroButtonR */ 
+/* heroButtonR */
 .heroButtonR {
   all: unset;
   display: flex;
@@ -330,7 +332,8 @@
   justify-content: center;
   position: relative;
   width: 50%;
-  padding: 1em 2em;
+  padding: 0.9em 2em;
+  background-color: #000000;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #000000;
@@ -354,13 +357,14 @@
   border-color: teal;
 }
 
-.heroButtonR::after, .heroButtonR::before {
+.heroButtonR::after,
+.heroButtonR::before {
   content: "";
   position: absolute;
   width: 25em;
   aspect-ratio: 1;
   background: mediumspringgreen;
-  opacity: 50%;
+  opacity: 80%;
   border-radius: 50%;
   transition: transform 500ms, background 300ms;
 }
@@ -375,15 +379,59 @@
 
 .heroButtonR:hover:before {
   left: 0;
-  transform: translateX(18em);
+  transform: translateX(25em);
 }
 
 .heroButtonR:hover:after {
   right: 0;
-  transform: translateX(-18em);
+  transform: translateX(-25em);
 }
 
 .heroButtonR:active:before,
 .heroButtonR:active:after {
+  background: teal;
+}
+
+/* fillButton */
+.fillButton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0.4em 1.7em;
+  border: mediumspringgreen solid 0.15em;
+  border-radius: 0.25em;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 300ms, color 300ms;
+  user-select: none;
+}
+
+.fillButton p {
+  z-index: 1;
+}
+
+
+.fillButton:active {
+  border-color: teal;
+}
+
+.fillButton::after,
+.fillButton::before {
+  content: "";
+  position: absolute;
+  width: 25em;
+  aspect-ratio: 1;
+  opacity: 50%;
+  border-radius: 50%;
+  transition: transform 500ms, background 300ms;
+}
+
+.fillButton:active:before,
+.fillButton:active:after {
   background: teal;
 }

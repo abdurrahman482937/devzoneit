@@ -12,15 +12,15 @@ const Navbar = () => {
     { name: "About", path: "/about" },
     { name: "Courses", path: "/courses" },
     { name: "Blog", path: "/blog" },
-    { name: "Seminar", path: "/seminar" },
     { name: "Contact", path: "/contact" },
   ];
 
   return (
     <div className="bg-[#091423] h-[100px] w-[100%]">
-      <div className="px-[13%] h-[100%] flex justify-between items-center">
-        <div className="">
-          <Image alt="Logo" src={Logo} height="55"></Image>
+      <div className="px-[15%] h-[100%] flex justify-between items-center">
+        <div className="flex items-center gap-2">
+          <Image alt="Logo" src={Logo} className="w-[55px] h-[50px]"></Image>
+          <h2 className="text-[35px] text-[mediumspringgreen] opacity-95 ">DevZone IT</h2>
         </div>
 
         <nav className="text-[#f2f2f2] font-semibold flex items-center gap-[24px] text-[18px]">
@@ -36,9 +36,15 @@ const Navbar = () => {
             </Link>
           ))}
         </nav>
+        <div className="">
+          <Link href="/login" className="px-4 py-2 rounded fillButton">
+            <p>Login</p>
+          </Link>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Navbar;
+

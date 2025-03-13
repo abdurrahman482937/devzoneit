@@ -68,9 +68,9 @@ export default function Footer() {
 
           <div className="text-left w-[39%]">
             <h2 className="text-[20px] font-semibold ">ঠিকানা</h2>
-            <div className="text-[18px] flex flex-col py-10">
-              <p>House-06, Road-01, Sector-04, Uttara, Dhaka-1230</p>
-              <p>+880 1796 491068, +880 1728 353768, +880 1707954201</p>
+            <div className="text-[18px] flex flex-col py-10 gap-1">
+              <p>House-06, Road-01, Sector-04, Uttara</p>
+              <p>+880 1796 491068, +880 1728 353768</p>
               <p>student@devzoneit.com</p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
       </div>
       <div className="h-[10%] flex flex-col justify-evenly items-center">
         <hr className="opacity-50 w-[100vw]"/>
-        <h4 className="text-center">© 2024 DevZone IT™. All Rights Reserved.</h4>
+        <h4 className="text-center">© 2025 DevZone IT™. All Rights Reserved.</h4>
       </div>
     </div>
   );
