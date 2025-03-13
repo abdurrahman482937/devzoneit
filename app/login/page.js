@@ -13,8 +13,7 @@ import { Bounce, ToastContainer, toast } from "react-toastify";
 import Link from "next/link";
 
 const Login = () => {
-  // const { loginwithgoogle, loginwithgithub, loginwithfacebook, userlogin } =
-  //   useContext(authContext);
+  // const { loginwithgoogle, loginwithgithub, loginwithfacebook, userlogin } = useContext(authContext);
   const handlelogin = (e) => {
     const form = new FormData(e.currentTarget);
     const email = form.get("email");
