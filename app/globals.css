@@ -130,7 +130,7 @@
   align-items: center;
   position: relative;
   padding: 0.4em 1.7em;
-  background-color: #000000;
+  background-color: #00ff9d70;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #f2f2f2;
@@ -196,7 +196,7 @@
   align-items: center;
   position: relative;
   padding: 0.6em 2em;
-  background-color: #000000;
+  background-color: #00ff9d70;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #f2f2f2;
@@ -264,7 +264,7 @@
   position: relative;
   width: 50%;
   padding: 0.9em 2em;
-  background-color: #000000;
+  background-color: #00ff9d70;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #ffffff;
@@ -333,7 +333,7 @@
   position: relative;
   width: 50%;
   padding: 0.9em 2em;
-  background-color: #000000;
+  background-color: #00ff9d70;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #000000;
@@ -400,6 +400,7 @@
   justify-content: center;
   position: relative;
   padding: 0.4em 1.7em;
+  background-color: #00ff9d00;
   border: mediumspringgreen solid 0.15em;
   border-radius: 0.25em;
   color: #ffffff;
