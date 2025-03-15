@@ -12,7 +12,6 @@ export default function Courses() {
         </p>
       </div>
       <div className="">
-        {}
         <div className="h-[400px] w-[350px] bg-black">
 
         </div>
