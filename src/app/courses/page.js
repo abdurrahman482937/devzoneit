@@ -13,7 +13,6 @@ export default function Courses() {
       </div>
       <div className="">
         <div className="h-[400px] w-[350px] bg-black">
-
         </div>
       </div>
     </div>
