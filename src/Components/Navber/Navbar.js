@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/public/favicon.ico";
+import Logo from "@/assets/favicon.ico";
 
 const Navbar = () => {
   const pathname = usePathname(); // Current route ber korar jonno
@@ -32,7 +32,7 @@ const Navbar = () => {
                 pathname === item.path ? "navButton" : "bg-none"
               }`}
             >
-              <p>{item.name}</p>
+              <p className="hover:text-[#00F597] transition-colors duration-500">{item.name}</p>
             </Link>
           ))}
         </nav>

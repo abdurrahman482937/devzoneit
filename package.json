@@ -9,28 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroui/react": "^2.7.5",
-    "@radix-ui/react-slot": "^1.1.2",
-    "@react-three/drei": "^10.0.4",
-    "@react-three/fiber": "^9.0.0-alpha.8",
-    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.5.0",
-    "lucide-react": "^0.479.0",
     "motion": "^12.5.0",
     "next": "15.2.2",
-    "next-auth": "^4.24.11",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-element-to-jsx-string": "^17.0.0",
     "react-hook-form": "^7.54.2",
     "react-icons": "^5.5.0",
     "react-toastify": "^11.0.5",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7",
-    "three": "^0.174.0",
-    "three-globe": "^2.42.2"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

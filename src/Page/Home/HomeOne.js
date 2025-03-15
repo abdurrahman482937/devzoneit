@@ -1,6 +1,8 @@
+'use client'
 import Image from "next/image";
-import HeroImg from "@/public/DevZoneThumbnail.webp";
+import HeroImg from "@/assets/DevZoneThumbnail.webp";
 import AnimatedEmoji from "@/Components/AnimatedEmoji/AnimatedEmoji";
+import { CardBody, CardContainer, CardItem } from "@/Components/ui/3d-card";
 
 export default function HomeOne() {
   return (
@@ -37,8 +39,19 @@ export default function HomeOne() {
           </div>
         </div>
       </div>
+
       <div className="w-[40%]">
-        <Image alt="Hero" src={HeroImg}></Image>
+        <CardContainer>
+          <CardItem translateZ="50" className="w-full mt-2">
+            <Image
+              src={HeroImg}
+              height="1000"
+              width="1000"
+              className="h-70 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              alt="thumbnail"
+            />
+          </CardItem>
+        </CardContainer>
       </div>
     </div>
   );
