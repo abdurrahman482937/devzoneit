@@ -31,7 +31,9 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar></Navbar>
+          <div className="h-[100px] w-[100%] z-50">
+            <Navbar></Navbar>
+          </div>
           <div className="overflow-x-hidden">{children}</div>
           <Footer></Footer>
         </ThemeProvider>
