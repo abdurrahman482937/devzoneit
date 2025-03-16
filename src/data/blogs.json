@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "slug": "job-vs-freelancing",
+      "image": "/blogs/b1.png",
+      "title": "চাকরি নাকি ফ্রিল্যান্সিং, কোন ক্যারিয়ার আপনার জন্য ভালো হবে?",
+      "date": "জুন ০৯, ২০২২",
+      "topic": "ফ্রিল্যান্সিং"
+    },
+    {
+      "id": 2,
+      "slug": "web-development-future",
+      "image": "/blogs/b2.png",
+      "title": "ওয়েব ডেভেলপমেন্টের ভবিষ্যৎ এবং বর্তমান মার্কেট",
+      "date": "মার্চ ১৫, ২০২৩",
+      "topic": "ওয়েব ডেভেলপমেন্ট"
+    },
+    {
+      "id": 3,
+      "slug": "earning-from-upwork",
+      "image": "/blogs/b3.png",
+      "title": "আপওয়ার্ক থেকে আয় বাড়ানোর ৫টি কৌশল",
+      "date": "আগস্ট ২১, ২০২৩",
+      "topic": "ফ্রিল্যান্সিং"
+    },
+    {
+      "id": 4,
+      "slug": "seo-strategy",
+      "image": "/blogs/b4.png",
+      "title": "SEO কৌশল: গুগলে আপনার ওয়েবসাইট র‍্যাংক করানোর উপায়",
+      "date": "জানুয়ারি ০৫, ২০২৪",
+      "topic": "SEO"
+    },
+    {
+      "id": 5,
+      "slug": "digital-marketing-growth",
+      "image": "/blogs/b5.png",
+      "title": "ডিজিটাল মার্কেটিংয়ের মাধ্যমে ব্যবসা বৃদ্ধির কৌশল",
+      "date": "ফেব্রুয়ারি ১২, ২০২৪",
+      "topic": "ডিজিটাল মার্কেটিং"
+    },
+    {
+    "id": 6,
+    "slug": "graphic-designing-tips",
+    "image": "/blogs/b6.png",
+    "title": "গ্রাফিক ডিজাইন শেখার সেরা ১০টি টিপস",
+    "date": "এপ্রিল ০৮, ২০২৪",
+    "topic": "গ্রাফিক ডিজাইন"
+  },
+  {
+    "id": 7,
+    "slug": "shopify-vs-woocommerce",
+    "image": "/blogs/b7.png",
+    "title": "Shopify নাকি WooCommerce? কোনটি ভালো হবে আপনার জন্য?",
+    "date": "মে ২০, ২০২৪",
+    "topic": "ই-কমার্স"
+  },
+  {
+    "id": 8,
+    "slug": "backend-vs-frontend",
+    "image": "/blogs/b8.png",
+    "title": "ফ্রন্টএন্ড নাকি ব্যাকএন্ড ডেভেলপমেন্ট? কোনটি শিখবেন?",
+    "date": "জুন ১৫, ২০২৪",
+    "topic": "ওয়েব ডেভেলপমেন্ট"
+  },
+  {
+    "id": 9,
+    "slug": "how-to-get-first-client",
+    "image": "/blogs/b9.png",
+    "title": "ফ্রিল্যান্সিংয়ে আপনার প্রথম ক্লায়েন্ট পাওয়ার ৫টি উপায়",
+    "date": "জুলাই ১০, ২০২৪",
+    "topic": "ফ্রিল্যান্সিং"
+  }
+]
+  

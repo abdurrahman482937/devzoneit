@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-[#091423] text-[#eaf1f5] h-[782px] w-[100%]">
+    <div className="bg-[#091423] text-[#eaf1f5] h-[750px] w-[100%]">
       <div className="h-[45%] flex flex-col justify-center items-center text-center gap-5">
         <h1 className="text-[45px] font-semibold">সকল কোর্সে ভর্তি চলছে</h1>
         <h2 className="text-[14px] font-medium">
