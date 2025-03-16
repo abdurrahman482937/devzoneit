@@ -58,11 +58,11 @@ export default function Blog() {
                 />
               </figure>
               <div className="card-body">
-                <div className="flex gap-3 text-xs">
-                  <div className="badge bg-[#FCE7E4] text-[#000] px-8 py-5">
+                <div className="flex gap-3">
+                  <div className="badge bg-[#FCE7E4] text-[#000] px-8 py-5 text-[12px] font-[500]">
                     {blog.topic}
                   </div>
-                  <div className="badge bg-[#FCE7E4] text-[#000] px-8 py-5">
+                  <div className="badge bg-[#FCE7E4] text-[#000] px-8 py-5 text-[12px] font-[500]">
                     {blog.date}
                   </div>
                 </div>
