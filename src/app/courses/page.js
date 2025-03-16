@@ -1,7 +1,20 @@
+"use client";
+import { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Courses() {
+  const [courses, setCourses] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/courses")
+      .then((res) => res.json())
+      .then((data) => setCourses(data))
+      .catch((err) => console.error("Error fetching data:", err));
+  }, []);
   return (
     <div className="flex flex-col py-30 px-[15%]">
-      <div className="flex flex-col items-center justify-center text-center gap-5">
+      <div className="flex flex-col items-center justify-center text-center mb-20 gap-5">
         <h1 className="text-4xl font-semibold">কোর্স সমূহ</h1>
         <p className="w-[70%] text-[16px] font-[300] leading-7">
           বর্তমান বিশ্বের ট্রেন্ডি এবং চাহিদাসম্পন্ন সব কোর্স রয়েছে ডেভজোন আইটি
@@ -11,9 +24,26 @@ export default function Courses() {
           হয়েছে, যাতে কোর্স শেষে প্রতিটি টপিকে কাজ করার আত্মবিশ্বাস আপনার থাকে।
         </p>
       </div>
-      <div className="">
-        <div className="h-[400px] w-[350px] bg-black">
-        </div>
+      <div className="flex flex-wrap gap-10">
+        {courses.map((course) => (
+          <Link key={course.id} href={`/courses/${course.slug}`}>
+            <div className="card bg-base-800 w-96 shadow-sm border-1">
+              <figure>
+                <Image
+                  className="h-[250px]"
+                  src={course.image}
+                  alt="Shoes"
+                  width={700}
+                  height={500}
+                />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{course.title}</h2>
+                <p>{course.description}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );
