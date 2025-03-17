@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default async function Courses() {
-  const res = await fetch("http://localhost:5000/courses")
-  const courses = await res.json()
+  const res = await fetch("http://localhost:5000/courses");
+  const courses = await res.json();
   return (
     <div className="flex flex-col py-30 px-[15%]">
       <div className="flex flex-col items-center justify-center text-center mb-20 gap-5">
@@ -18,7 +18,7 @@ export default async function Courses() {
       </div>
       <div className="flex flex-wrap gap-10">
         {courses.map((course) => (
-          <Link key={course.id} href={`/courses/${course.slug}`}>
+          <Link key={course.id} href={`/courses/${course.id}`}>
             <div className="card bg-base-800 w-96 shadow-sm border-1">
               <figure>
                 <Image
