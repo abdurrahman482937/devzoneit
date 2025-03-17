@@ -1,5 +1,5 @@
-import courses from "@/data/courses.json";
+// import courses from "@/data/courses.json";
 
-export async function GET() {
-  return Response.json(courses);
-}
+// export async function GET() {
+//   return Response.json(courses);
+// }

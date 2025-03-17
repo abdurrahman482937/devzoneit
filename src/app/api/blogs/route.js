@@ -1,5 +1,5 @@
-import blogs from "@/data/blogs.json";
+// import blogs from "@/data/blogs.json";
 
-export async function GET() {
-  return Response.json(blogs);
-}
+// export async function GET() {
+//   return Response.json(blogs);
+// }
