@@ -1,16 +1,11 @@
-"use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
-export default function Blog() {
-  const [blogs, setBlogs] = useState([]);
+export default async function Blog() {
+  const res = await fetch("http://localhost:5000/blogs", {
+    cache: "force-cache"
+  });
+  const blogs = await res.json()
 
-  useEffect(() => {
-    fetch("/api/blogs")
-      .then((res) => res.json())
-      .then((data) => setBlogs(data))
-      .catch((err) => console.error("Error fetching data:", err));
-  }, []);
   return (
     <div className="flex flex-col">
       <div className="h-[364px] px-[15%] bg-[#091423] text-[#f2f2f2] flex flex-col justify-center items-center gap-15">
