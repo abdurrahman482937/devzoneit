@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default async function Blog() {
   const res = await fetch("http://localhost:5000/blogs", {
-    cache: "force-cache"
+    next: { revalidate: 20 }
   });
   const blogs = await res.json()
 

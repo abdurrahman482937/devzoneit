@@ -1,17 +1,9 @@
-"use client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Courses() {
-  const [courses, setCourses] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5000/courses")
-      .then((res) => res.json())
-      .then((data) => setCourses(data))
-      .catch((err) => console.error("Error fetching data:", err));
-  }, []);
+export default async function Courses() {
+  const res = await fetch("http://localhost:5000/courses")
+  const courses = await res.json()
   return (
     <div className="flex flex-col py-30 px-[15%]">
       <div className="flex flex-col items-center justify-center text-center mb-20 gap-5">
@@ -32,7 +24,7 @@ export default function Courses() {
                 <Image
                   className="h-[250px]"
                   src={course.image}
-                  alt="Shoes"
+                  alt=""
                   width={700}
                   height={500}
                 />
