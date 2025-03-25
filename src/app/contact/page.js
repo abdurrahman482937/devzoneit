@@ -1,3 +1,5 @@
+import App from "./Card";
+
 export default function Contact() {
   return (
     <div className="flex flex-col">
@@ -11,7 +13,9 @@ export default function Contact() {
         </p>
       </div>
       <div className="py-20 px-[15%] bg-[#152733]">
-          
+          <div>
+            <App />
+          </div>
       </div>
     </div>
   );
